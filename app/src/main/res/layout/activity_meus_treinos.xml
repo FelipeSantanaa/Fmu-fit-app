@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#102d47"
+    tools:context=".MeusTreinos">
+
+    <!--<LinearLayout
+        android:id="@+id/bloco_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        &lt;!&ndash;<Button
+            android:id="@+id/btnCadastrarTreino"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TREINO +"
+            android:onClick="chamarCadastroTreino"/>&ndash;&gt;
+    </LinearLayout>-->
+    
+    <ListView
+        android:id="@+id/lista_meusTreinos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

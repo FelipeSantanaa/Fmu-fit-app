@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context=".Notificacoes"
+    android:background="#102d47">
+
+    <ListView
+        android:id="@+id/lsvNotificacoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<LinearLayout
+        android:id="@+id/noti_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/titulo_noti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AVISO"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/valor_plano1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="PREZADO ALUNO,\n\nFAVOR ENTRAR EM CONTATO COM SEU PROFESSOR / INSTRUTOR REFERENTE AO AGENDAMENTO DE CROSS FIT EM 22/11/2020 ÀS 08H00." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noti_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/noti_1">
+
+        <TextView
+            android:id="@+id/titulo_noti2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCONTO IMPERDÍVEL!!!"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/valor_plano2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="JÁ SABE DA NOVIDADE DE FIM DE ANO?\n\nENTRE EM CONTATO CONOSCO NO 0800 - 46780
+E REALIZE O PAGAMENTO DA REMATRÍCULA 2022 COM ATÉ 45% DE DESCONTO!\n\nMAS SOMENTE ATÉ 30/11!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>-->
+
+
+</RelativeLayout>
+

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Planos"
+    android:background="#102d47">
+
+    <ListView
+        android:id="@+id/lsvPlanos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<LinearLayout
+        android:id="@+id/plano_anual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/titulo_plano1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLANO ANUAL"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/valor_plano1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="R$ 99,00 / MÊS\nR$ 1188,00 EM ATÉ 12x" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/plano_sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/plano_anual">
+
+        <TextView
+            android:id="@+id/titulo_plano2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLANO SEMESTRAL"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/valor_plano2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="R$ 120,00 / MÊS\nR$ 720,00 EM ATÉ 6x" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/plano_quad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/plano_sem">
+
+        <TextView
+            android:id="@+id/titulo_plano3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLANO QUADRIMESTRAL"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/valor_plano3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="R$ 140,00 / MÊS\nR$ 560,00 EM ATÉ 4x" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/plano_bim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/plano_quad">
+
+        <TextView
+            android:id="@+id/titulo_plano4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLANO BIMESTRAL"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/valor_plano4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="R$ 170,00 / MÊS\nR$ 340,00 EM ATÉ 2x" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/plano_men"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/plano_bim">
+
+        <TextView
+            android:id="@+id/titulo_plano5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENSALIDADE"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/valor_plano5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="R$ 200,00 / MÊS" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="_____________________________________________________"
+            />
+
+    </LinearLayout>-->
+
+
+</LinearLayout>
+

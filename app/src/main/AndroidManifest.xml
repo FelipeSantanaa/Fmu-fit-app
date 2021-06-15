@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appfmufit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_flamingo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_flamingo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CadastroTreino"></activity>
+        <activity android:name=".AlteraUsuario" />
+        <activity android:name=".Notificacoes" />
+        <activity android:name=".Planos" />
+        <activity android:name=".ReservasTreinos" />
+        <activity android:name=".MenuPrincipal" />
+        <activity android:name=".TelaCadastro" />
+        <activity android:name=".MeusTreinos"/>
+
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
